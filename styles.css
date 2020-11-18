@@ -32,7 +32,7 @@ html {
     background-color: #333333;
     top: 0;
     right: 55rem;
-    height: 100vh;
+    height: 120%;
     width: 0rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -52,7 +52,7 @@ html {
     -webkit-box-shadow: 1px 0 15px 2px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 0 15px 2px rgba(0, 0, 0, 0.4);
     z-index: 999;
-    width: 40%;
+    width: 46%;
     position: fixed;
 
 
@@ -131,17 +131,22 @@ html {
     color: white;
 }
 
-.nav_ham_sideBar {
-    margin-top: 0 !important
+.nav_inner_inner {
+    margin-top: -400px !important
 }
 
+.inner_nav {
+    margin-top: 10px !important
+}
 
-
+.inner_nav li {
+    margin-top: 20px
+}
 
 /****side bar ***/
 .side_bar {
     background-color: #333333;
-    min-height: 120%;
+    min-height: 160%;
     width: 350px;
     position: absolute;
     top: 0;
